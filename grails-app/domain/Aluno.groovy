@@ -14,9 +14,10 @@ class Aluno {
 		matricula blank: false, unique: true, nullable: false,validator: {
             matricula.matches("[1-9]*")
         }
-		senha blank: false  , nullable: false
+		senha blank: false  , nullable: false, password: true
         email email: true , blank: false, unique: true, nullable: false
         nome blank: false, nullable: false
+
 	}
 
 	static mapping = {
