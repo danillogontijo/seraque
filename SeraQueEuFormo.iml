@@ -3,14 +3,16 @@
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
       <configuration>
-        <fileset id="Grails" name="Grails" removed="false" />
+        <fileset id="Grails" name="Grails" removed="false">
+          <file>file://$MODULE_DIR$/web-app/WEB-INF/applicationContext.xml</file>
+        </fileset>
       </configuration>
     </facet>
     <facet type="web" name="GrailsWeb">
       <configuration>
         <webroots>
-          <root url="file://$USER_HOME$/IdeaProjects/SeraQueEuFormo/web-app" relative="/" />
-          <root url="file://$USER_HOME$/IdeaProjects/SeraQueEuFormo/grails-app/views" relative="/" />
+          <root url="file://$MODULE_DIR$/web-app" relative="/" />
+          <root url="file://$MODULE_DIR$/grails-app/views" relative="/" />
         </webroots>
         <sourceRoots />
       </configuration>
@@ -34,6 +36,8 @@
       <sourceFolder url="file://$MODULE_DIR$/grails-app/taglib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test/unit" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/test/integration" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/target/test-classes" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -43,15 +47,8 @@
         <CLASSES>
           <root url="file://$MODULE_DIR$/lib" />
           <root url="file://$MODULE_DIR$/lib" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/asm/asm-tree/jars/asm-tree-3.1.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/asm/asm-commons/jars/asm-commons-3.1.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.geronimo.specs/geronimo-annotation_1.0_spec/jars/geronimo-annotation_1.0_spec-1.1.1.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.geronimo.specs/geronimo-jaspic_1.0_spec/bundles/geronimo-jaspic_1.0_spec-1.0.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/javax.activation/activation/jars/activation-1.1.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/javax.mail/mail/jars/mail-1.4.1.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.geronimo.specs/geronimo-jta_1.1_spec/jars/geronimo-jta_1.1_spec-1.1.1.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/javax.servlet/servlet-api/jars/servlet-api-2.5.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.eclipse.jetty.aggregate/jetty-all/jars/jetty-all-7.6.0.v20120127.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.springframework.security/spring-security-web/jars/spring-security-web-3.0.7.RELEASE.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.springframework.security/spring-security-core/jars/spring-security-core-3.0.7.RELEASE.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -60,6 +57,7 @@
       </library>
     </orderEntry>
     <orderEntry type="module" module-name="SeraQueEuFormo-grailsPlugins" />
+    <orderEntry type="library" name="grails-2.2.3" level="application" />
   </component>
 </module>
 

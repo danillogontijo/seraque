@@ -1,0 +1,4 @@
+--Output from testInsercao--
+2013-07-06 08:12:26,345 [main] ERROR util.JDBCExceptionReporter  - Table "ALUNO" not found; SQL statement:
+select this_.id as id8_0_, this_.version as version8_0_, this_.account_expired as account3_8_0_, this_.account_locked as account4_8_0_, this_.ativo as ativo8_0_, this_.email as email8_0_, this_.matricula as matricula8_0_, this_.nome as nome8_0_, this_.password_expired as password9_8_0_, this_."password" as password10_8_0_ from aluno this_ where this_.matricula=? [42102-164]
+
