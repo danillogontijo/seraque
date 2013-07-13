@@ -14,19 +14,23 @@
 			<div id = "content-inner">
 
 				<div id = "academic" class ="menu"> 
-					<button id = "bt_academic"></button>
+					%{-- Trocar por botoes do grails com links para as referentes views   --}%
+					<button id = "bt_academic"> Extrato</button>
 				</div>
 				
-				<div id = "fluxo" class = "menu"> 
-					<button id = "bt_privada"></button>
+				<div id = "fluxo" class = "menu">
+					%{-- Trocar por botoes do grails com links para as referentes views   --}%
+					<button id = "bt_privada">Fluxo</button>
 				</div>
 				
 				<div id = "pesquisa" class ="menu"> 
-					<button id = "bt_lupa"></button>
+					%{-- Trocar por botoes do grails com links para as referentes views   --}%
+					<button id = "bt_lupa">Pesquisa</button>
 				</div>
 				
 				<div id = "relatorios" class ="menu">
-					<button id = "bt_relatorios"></button>
+					%{-- Trocar por botoes do grails com links para as referentes views   --}%
+					<button id = "bt_relatorios">Relatorios</button>
 				</div>
 			</div>
 		</div>
