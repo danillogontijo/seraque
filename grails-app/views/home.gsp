@@ -2,7 +2,8 @@
 <html>
 	<head>
 		<meta name="layout" content="main">
-		<g:set var="entityName" value="${message(code: 'dadosExtrato.label', default: 'DadosExtrato')}" />
+		<link rel="stylesheet" type="text/css" href="home.css">
+		%{-- <g:set var="entityName" value="${message(code: 'dadosExtrato.label', default: 'DadosExtrato')}" /> --}%
 		<title><g:message code="default.create.label" args="[entityName]" /></title>
 	</head>
 	<body>
