@@ -1,4 +1,37 @@
+div#user{
+	width: 150px;
+	height: 150px;
+	/*background: blue;*/
+	margin: 2.5%;
+	border:1px solid;
+	text-align: center;
+}
+div#user span{
+	position: relative;
+	top:40%;
+}
+
+
 div#content-side{
-	background-color: red;
+	/*width:100%;*/
+	background-color: #abbf78;
+	padding:2.5%;
+}
+
+div#content-inner{
+	height: 200px;
+}
+
+div#content-inner .menu{
+	width: 25%;
+	height: 150px;
+	float:left;
+	text-align: center;
 
 }
+
+div #content-inner .menu button{
+	width: 150px;
+	height:150px;
+}
+
